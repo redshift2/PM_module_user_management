@@ -53,6 +53,7 @@ class User extends TaackUser {
         dateCreated nullable: true
         firstName nullable: true
         lastName nullable: true
+        businessUnit nullable: true
         language nullable: true
         subsidiary nullable: true
         manager nullable: true
