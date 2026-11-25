@@ -1,0 +1,28 @@
+{
+  "id": "crewWorkspace",
+  "label": "User Management",
+  "controller": "crewWorkspace",
+  "action": "index",
+  "icon": "crew/crew.svg",
+  "order": 50,
+  "roles": [
+    "ROLE_ADMIN"
+  ],
+  "menuItems": [
+    {
+      "label": "Users",
+      "action": "index",
+      "order": 10
+    },
+    {
+      "label": "Roles",
+      "action": "roles",
+      "order": 20
+    },
+    {
+      "label": "Hierarchy",
+      "action": "hierarchy",
+      "order": 30
+    }
+  ]
+}
